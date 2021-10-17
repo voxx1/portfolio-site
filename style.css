@@ -1,0 +1,557 @@
+:root {
+  --bs-light:white !important;
+}
+
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+.nav-link {
+  font-weight: 500;
+  font-size: 18px;
+  margin-left: 15px;
+  margin-right: 15px;
+  text-align: center;
+}
+
+.nav-link:hover {
+  color: #7510F7 !important;
+  -webkit-transform: scale(1.15);
+          transform: scale(1.15);
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
+.polish {
+  color: #7510F7 !important;
+  font-weight: bold;
+}
+
+.navbar-collapse {
+  -webkit-box-flex: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+}
+
+.navbar-toggler-icon {
+  width: 1.2em;
+  height: 1.2em;
+}
+
+.navbar-brand:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+  cursor: auto;
+}
+
+.hero {
+  margin: 0 20px 0 20px;
+}
+
+.hero h3 {
+  font-weight: 300;
+  text-align: center;
+  margin-top: 35px;
+  font-size: 18px;
+}
+
+.hero h1 span:hover {
+  text-decoration: underline;
+  color: #7510F7;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
+.hero img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+.hero img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 600;
+}
+
+.hero-foot {
+  padding: 20px;
+}
+
+.hero-foot img {
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  margin-top: 40px;
+  margin-bottom: -1.3rem;
+}
+
+.size {
+  margin: 10px 0 10px 0;
+}
+
+.about {
+  background-color: #7510F7;
+}
+
+.about h1 {
+  color: white;
+  padding: 60px 45px 30px 45px;
+  font-weight: bold;
+}
+
+.about h3 {
+  color: white;
+  text-align: center;
+  padding: 0px 30px 185px 30px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.skills {
+  display: block;
+  text-align: center;
+  background-color: white;
+  margin: -160px 30px 0 30px;
+  border-radius: 25px 25px 0 0;
+}
+
+.element {
+  margin-top: 40px;
+}
+
+.element img {
+  margin-top: 20px;
+}
+
+.element:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
+.element h2 {
+  font-weight: 800;
+  margin-top: 20px;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.element p span {
+  color: #7510F7;
+  font-weight: bold;
+}
+
+.wave {
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+}
+
+.portfolio {
+  background-color: #7510F7;
+}
+
+.portfolio h1 {
+  color: white;
+  text-align: center;
+  padding: 0px 45px 10px 45px;
+  font-weight: bold;
+}
+
+.portfolio h3 {
+  color: white;
+  text-align: center;
+  padding: 0px 30px 50px 30px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.gallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 50px;
+}
+
+.gallery-item {
+  text-align: center;
+  margin: 15px;
+}
+
+.gallery-item img {
+  height: 300px;
+  width: 300px;
+}
+
+.gallery-item img:hover {
+  border: 6px solid #7510F7;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.gallery-item h2 {
+  margin-top: 20px;
+  font-weight: bold;
+  color: #7510F7;
+  font-size: 24px;
+}
+
+.gallery-item p {
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+
+.gallery-item .filler {
+  margin: 0 auto;
+  margin-top: 30px;
+  display: block;
+  height: 300px;
+  width: 300px;
+  background-color: #7510F7;
+  color: white;
+}
+
+.filler i {
+  margin-top: 120px;
+}
+
+.gallery-row {
+  width: 400px;
+}
+
+.gallery-item-shortcut:hover {
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+  -webkit-transition: 0.1s ease-in-out;
+  transition: 0.1s ease-in-out;
+  border: 7px solid #7510F7;
+}
+
+.parallax {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.parallax h4 {
+  margin-bottom: 20px;
+}
+
+#parallax-height {
+  top: 28%;
+}
+
+.img {
+  background-image: url("paralax.jpg");
+  height: 300px;
+  display: none;
+  -o-object-fit: cover;
+  object-fit: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+}
+
+.contact {
+  background-color: #7510F7;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.contact h1 {
+  color: white;
+  padding-top: 20px;
+  margin: 0 15px 0 15px;
+  font-weight: bold;
+}
+
+.contact h2 {
+  color: white;
+  margin: 20px 20px 30px 20px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.contact h4 {
+  color: white;
+  margin: 0;
+  font-weight: 300;
+  font-size: 17px;
+  opacity: 0.8;
+}
+
+.contact h4:hover {
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.contact img {
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.contact img:hover {
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.btn {
+  display: inline-block;
+  margin: 25px 5px 40px 5px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  background-clip: padding-box;
+}
+
+.btn i {
+  margin-top: 10px;
+  color: white;
+}
+
+.btn:hover {
+  background-color: white;
+  color: #7510F7;
+  border: #7510F7;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.fadedown {
+  opacity: 0;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.showme {
+  opacity: 1 !important;
+}
+
+@media (max-width: 300px) {
+  .wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+  }
+}
+
+@media (min-width: 750px) {
+  .hero-foot img {
+    width: 700px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 40px;
+    margin-bottom: -1.3rem;
+  }
+  .navbar-brand {
+    margin-left: 50px;
+  }
+  .skills {
+    margin-top: -160px !important;
+    width: 700px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 800px) {
+  .element p {
+    padding: 0 90px 0 90px;
+  }
+  .add-gallery {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .add-gallery-item {
+    margin-left: 50px;
+  }
+  .add-gallery-item2 {
+    margin-right: 50px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .hero h1 {
+    font-weight: bold;
+  }
+  .hero h3 {
+    font-weight: 400;
+  }
+  .about h1 {
+    padding: 130px 45px 30px 45px;
+    font-size: 35px;
+  }
+  .about h3 {
+    padding: 0px 110px 220px 110px;
+    line-height: 1.7;
+  }
+  .skills {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: -160px !important;
+    width: 910px;
+    margin: 0 auto;
+  }
+  .element {
+    width: 430px;
+  }
+  .portfolio {
+    margin-top: -30px;
+  }
+  .gallery {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
+@media (min-width: 1200px) {
+  .add-gallery {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .add-gallery-item {
+    margin-left: 15px;
+  }
+  .add-gallery-item2 {
+    margin-right: 15px;
+    margin-bottom: -40px;
+  }
+  .middle {
+    height: 921px;
+  }
+}
+
+@media (min-width: 1200px) and (min-width: 1300px) {
+  .about h3 {
+    padding: 0px 310px 220px 310px;
+    line-height: 1.7;
+  }
+}
+
+@media (min-width: 1200px) and (min-width: 1460px) {
+  .skills {
+    width: 1350px;
+    margin: 0 auto;
+    margin-top: -160px;
+  }
+  .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media (min-width: 1200px) and (min-width: 1900px) {
+  .portfolio {
+    margin-top: -80px;
+  }
+  .wave {
+    margin-top: -150px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
