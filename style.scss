@@ -397,6 +397,7 @@ h1 {
 	.add-gallery {
 		display: flex;
 		flex-direction: column;
+		margin-top: 20px;
 	}
 	.add-gallery-item {
 		margin-left: 15px;
@@ -404,9 +405,6 @@ h1 {
 	.add-gallery-item2 {
 		margin-right: 15px;
 		margin-bottom: -40px;
-	}
-	.middle {
-		height: 921px;
 	}
 	@media (min-width:1300px) {
 				.about h3 { padding: 0px 310px 220px 310px;
