@@ -400,6 +400,10 @@ h1 {
 }
 
 @media (min-width: 800px) {
+  .beauty {
+    margin-top: 35px;
+    margin-right: -20px !important;
+  }
   .element p {
     padding: 0 90px 0 90px;
   }
@@ -511,7 +515,10 @@ h1 {
   }
   .add-gallery-item2 {
     margin-right: 15px;
-    margin-bottom: -40px;
+    margin-bottom: 0px;
+  }
+  .beauty {
+    margin-top: 0px;
   }
 }
 
